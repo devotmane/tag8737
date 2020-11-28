@@ -1,1 +1,1 @@
-console.log('start inject js')
+console.log('Hello ScriptTag')
