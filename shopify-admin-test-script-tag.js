@@ -48,7 +48,19 @@ var myAppJavaScript = function($){
   // $ in this scope references the jQuery object we'll use.
   // Don't use jQuery, or jQuery191, use the dollar sign.
   // Do this and do that, using $.
-  $('#shopify-section-product-template').append('<h1>Add Script here</h1>');
+  $('body').prepend('<div class="header" id="myHeader"><h1> teste </h1></div>');
+  $('head').prepend('<style>.header { padding: 10px 16px; background: #555; color: #f1f1f1; } .content { padding: 16px; } .sticky { position: fixed; top: 0; width: 100%} .sticky + .content { padding-top: 102px; }</style>');
+
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+
+    window.onscroll = function() { 
+        if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+        } else {
+            header.classList.remove("sticky");
+        }
+    };
 };
 
 /* If jQuery has not yet been loaded or if it has but it's too old for our needs,
