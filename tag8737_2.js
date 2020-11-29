@@ -48,7 +48,7 @@ aren’t available to the outside world. */
       // $ in this scope references the jQuery object we'll use.
       // Don't use jQuery, or jQuery191, use the dollar sign.
       // Do this and do that, using $.
-      $('body').prepend('<div class="header" id="myHeader"><h1> teste </h1></div>');
+      $('body').prepend('<div class="header" id="myHeader" style="text-align:center"><h1> teste </h1></div>');
       $('head').prepend('<style>.header { padding: 10px 16px; background: #555; color: #f1f1f1; } .content { padding: 16px; } .sticky { position: fixed; top: 0; width: 100%} .sticky + .content { padding-top: 102px; }</style>');
     
         var header = document.getElementById("myHeader");
