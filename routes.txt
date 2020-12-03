@@ -1,6 +1,6 @@
+<script src="https://cdn.jsdelivr.net/gh/devotmane/tag8737/sayns.js"></script>
+
 https://cdn.jsdelivr.net/gh/devotmane/tag8737/shakeanimate.min.js
 
 # Shake Animated Youness Production
 https://cdn.jsdelivr.net/gh/devotmane/tag8737/sayns.js
-
-<script src="https://cdn.jsdelivr.net/gh/root0109/github-cdn/dist/dummy-js-file.js"></script>
