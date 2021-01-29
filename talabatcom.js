@@ -14,14 +14,12 @@ function shake() {
 }
 
 for (let i = 0; i < inputs.length; i++) {
-    inputs[i].addEventListener('focus', startTyping);
-}
-
-function startTyping(event) {
-    el = event.explicitOriginalTarget;
-    if (!el.classList.contains('stopshake') || (event.target.value)) {
-        el.classList.add("stopshake");
-    }
+        inputs[i].addEventListener('focus', (event) => {
+        el = event.explicitOriginalTarget;
+        if (!el.classList.contains('stopshake')|| (event.target.value)) {
+            el.classList.add("stopshake");
+        }
+    });
 }
 
     setInterval("shake()", 1000);
