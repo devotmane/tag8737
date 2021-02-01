@@ -1,1 +1,1 @@
-.form-group input{border:1px #7DD321 solid!important}.shake{position:relative!important;animation:shake .1s linear!important;animation-iteration-count:3!important}@keyframes shake{0%{left:-5px}100%{right:-5px}}
+.form-group input{border:2px #7DD321 solid!important}.shake{position:relative!important;animation:shake .1s linear!important;animation-iteration-count:3!important}@keyframes shake{0%{left:-5px}100%{right:-5px}}
